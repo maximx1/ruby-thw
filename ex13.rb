@@ -5,6 +5,6 @@ puts "Your second variable is: #{second}"
 puts "Your third variable is: #{third}"
 
 print "Anymore? "
-another = gets.chomp
+another = $stdin.gets.chomp
 
 puts another
